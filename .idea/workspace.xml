@@ -4,11 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c1c07c3-7fc5-418b-b50b-c2d05f76d6e3" name="Changes" comment="" />
+    <list default="true" id="7c1c07c3-7fc5-418b-b50b-c2d05f76d6e3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -20,20 +30,68 @@
   "associatedIndex": 2
 }]]></component>
   <component name="ProjectId" id="2eAOVMvxb1hcIHLfZ8MGU3WKGYi" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Selenium_01_Flow.executor": "Run",
+    "Application.Selenium_04_OpenDriver.executor": "Run",
+    "Application.Selenium_05_HeadlessOrUIless.executor": "Run",
+    "Application.TC01.executor": "Run",
+    "JUnit.AppTest.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.TC02.executor": "Run",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Onkar/TheTestingAcademy/JAVA Programs and Notes/Learn_SeleniumWithJava/src/test/java"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Onkar\TheTestingAcademy\JAVA Programs and Notes\Learn_SeleniumWithJava\src\test\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Selenium_05_HeadlessOrUIless">
+    <configuration name="Selenium_04_OpenDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Selenium_Basics.Selenium_04_OpenDriver" />
+      <module name="Learn_SeleniumWithJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Selenium_Basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Selenium_05_HeadlessOrUIless" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Selenium_Basics.Selenium_05_HeadlessOrUIless" />
+      <module name="Learn_SeleniumWithJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Selenium_Basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Selenium_05_HeadlessOrUIless" />
+        <item itemvalue="Application.Selenium_04_OpenDriver" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
