@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c1c07c3-7fc5-418b-b50b-c2d05f76d6e3" name="Changes" comment="New Sessions added 21">
+    <list default="true" id="7c1c07c3-7fc5-418b-b50b-c2d05f76d6e3" name="Changes" comment="Understand Each code line and write as in your language...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopics/Selenium12_Locator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics/Selenium12_Locator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopics/Selenium13_1AnchorTag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics/Selenium13_1AnchorTag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopics/Selenium15Xpath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics/Selenium15Xpath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopics/Selenium16Practive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics/Selenium16Practive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopics/Selenium17TestNGFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics/Selenium17TestNGFlow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopics/Selenium18Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics/Selenium18Locators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopics/Selenium19UseCSSSelectors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics/Selenium19UseCSSSelectors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopics/Selenium20Alert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics/Selenium20Alert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopics/Selenium21waitwithcondn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics/Selenium21waitwithcondn.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +53,8 @@
     "TestNG.Selenium21Alert.executor": "Run",
     "TestNG.Selenium22visibilityOfElementLocated.executor": "Run",
     "TestNG.Selenium23Fluentwaits.executor": "Run",
+    "TestNG.Selenium24DropDown.executor": "Run",
+    "TestNG.Selenium25JavaScriptAlerts.executor": "Run",
     "TestNG.TC02.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -165,12 +158,29 @@
       <option name="project" value="LOCAL" />
       <updated>1711377081062</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Understand Each code line and write as in your language...">
+      <option name="closed" value="true" />
+      <created>1711555263391</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711555263391</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Understand Each code line and write as in your language...">
+      <option name="closed" value="true" />
+      <created>1711555348629</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711555348629</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New Sessions added" />
     <MESSAGE value="New Sessions added 21" />
-    <option name="LAST_COMMIT_MESSAGE" value="New Sessions added 21" />
+    <MESSAGE value="Understand Each code line and write as in your language..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Understand Each code line and write as in your language..." />
   </component>
 </project>
