@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c1c07c3-7fc5-418b-b50b-c2d05f76d6e3" name="Changes" comment="Understand Each code line and write as in your language...">
+    <list default="true" id="7c1c07c3-7fc5-418b-b50b-c2d05f76d6e3" name="Changes" comment="Alert,JS Alert, Dropdown">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopics/Selenium24DropDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics/Selenium24DropDown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopics/Selenium25JavaScriptAlerts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics/Selenium25JavaScriptAlerts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopics/Selenium26Checkbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics/Selenium26Checkbox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium_Basics/Selenium_03_AddExtension.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium_Basics/Selenium_03_AddExtension.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +25,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/test/java/SeleniumTopics/Selenium27WebTable.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -40,6 +47,7 @@
   "keyToString": {
     "Application.Selenium13_1AnchorTag.executor": "Run",
     "Application.Selenium_01_Flow.executor": "Run",
+    "Application.Selenium_03_AddExtension.executor": "Run",
     "Application.Selenium_04_OpenDriver.executor": "Run",
     "Application.Selenium_05_HeadlessOrUIless.executor": "Run",
     "Application.TC01.executor": "Run",
@@ -47,6 +55,13 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.Sel29.executor": "Run",
+    "TestNG.Sele30_SvgHandle.executor": "Run",
+    "TestNG.Sele30_SvgHandle.testPositive.executor": "Debug",
+    "TestNG.Sele31_JavaScriptExecutor.executor": "Run",
+    "TestNG.Sele32_ActionsClasses.executor": "Run",
+    "TestNG.Sele33_ActionsClasses.executor": "Run",
+    "TestNG.Sele34_MoveToElement.executor": "Run",
     "TestNG.Selenium15Xpath.executor": "Run",
     "TestNG.Selenium19UseCSSSelectors.executor": "Run",
     "TestNG.Selenium20Example.executor": "Run",
@@ -55,6 +70,11 @@
     "TestNG.Selenium23Fluentwaits.executor": "Run",
     "TestNG.Selenium24DropDown.executor": "Run",
     "TestNG.Selenium25JavaScriptAlerts.executor": "Run",
+    "TestNG.Selenium26Checkbox.executor": "Run",
+    "TestNG.Selenium27WebTable.executor": "Run",
+    "TestNG.Selenium27WebTable.webTable (1).executor": "Debug",
+    "TestNG.Selenium27WebTable.webTable.executor": "Run",
+    "TestNG.Selenium_03_AddExtension.executor": "Run",
     "TestNG.TC02.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -65,10 +85,13 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Onkar\TheTestingAcademy\JAVA Programs and Notes\Learn_SeleniumWithJava\src\test\java" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="SelTopics" />
+    </key>
   </component>
   <component name="RunManager">
-    <configuration name="Selenium_04_OpenDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Selenium_Basics.Selenium_04_OpenDriver" />
+    <configuration name="Selenium_03_AddExtension" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Selenium_Basics.Selenium_03_AddExtension" />
       <module name="Learn_SeleniumWithJava" />
       <extension name="coverage">
         <pattern>
@@ -93,6 +116,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Sele32_ActionsClasses" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Learn_SeleniumWithJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SelTopics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SelTopics" />
+      <option name="MAIN_CLASS_NAME" value="SelTopics.Sele32_ActionsClasses" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Selenium23Fluentwaits" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Learn_SeleniumWithJava" />
       <extension name="coverage">
@@ -110,11 +150,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Selenium27WebTable.webTable" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Learn_SeleniumWithJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumTopics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumTopics" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTopics.Selenium27WebTable" />
+      <option name="METHOD_NAME" value="webTable" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Sele32_ActionsClasses" />
+        <item itemvalue="Application.Selenium_03_AddExtension" />
+        <item itemvalue="TestNG.Selenium27WebTable.webTable" />
         <item itemvalue="TestNG.Selenium23Fluentwaits" />
         <item itemvalue="Application.Selenium_05_HeadlessOrUIless" />
-        <item itemvalue="Application.Selenium_04_OpenDriver" />
       </list>
     </recent_temporary>
   </component>
@@ -174,13 +234,22 @@
       <option name="project" value="LOCAL" />
       <updated>1711555348629</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Alert,JS Alert, Dropdown">
+      <option name="closed" value="true" />
+      <created>1711632890596</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1711632890597</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New Sessions added" />
     <MESSAGE value="New Sessions added 21" />
     <MESSAGE value="Understand Each code line and write as in your language..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Understand Each code line and write as in your language..." />
+    <MESSAGE value="Alert,JS Alert, Dropdown" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alert,JS Alert, Dropdown" />
   </component>
 </project>

@@ -1,27 +1,31 @@
 package Selenium_Basics;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.edge.EdgeOptions;
-import org.testng.annotations.Test;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.io.File;
 
 public class Selenium_03_AddExtension {
 
-    @Test
-    public void testMethod(){
-        //Extension to the Edge Browser
-        // YouTube video - Ad Blocker Extension
-        //Selenium using
+    public static void main(String[] args) {
 
-        EdgeOptions edgeOptions = new EdgeOptions();
-    //edgeOptions.addArguments("--headless");
+        // Extension to the Edge Browser
+        // YouTube video - Ad Blocker/xpath finder Extension
+        // Selenium using
 
-        edgeOptions.addExtensions(new File("C:/Users/Sanjay Thorat/Downloads/AdBlocker.com"));
-        WebDriver driver  = new EdgeDriver(edgeOptions);
-        driver.get("https://youtube.com");
+        ChromeOptions options = new ChromeOptions();
+        //edgeOptions.addArguments("--headless");
+
+        options.addExtensions(new File
+                ("C:\\Users\\Sanjay Thorat\\Downloads\\SelectorsHub.crx"));
+        options.setAcceptInsecureCerts(true);
+
+        WebDriver driver = new ChromeDriver(options);
+        driver.manage().window().maximize();
+        driver.get("https://the-internet.herokuapp.com/");
         System.out.println(driver.getTitle());
-        driver.quit();
+
+        //driver.quit();
     }
 }

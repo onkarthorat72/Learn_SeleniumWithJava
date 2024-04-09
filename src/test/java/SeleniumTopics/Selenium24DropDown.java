@@ -23,19 +23,21 @@ public class Selenium24DropDown {
     }
 
     @Test(groups = "QA")
-    @Description("Select drop own menu, use by 'Select' class")
+    @Description("Selenium Test for Dropdown Selection Using Select Class")
     public void testPositive() throws InterruptedException {
         driver.get("https://the-internet.herokuapp.com/dropdown");
         driver.manage().window().maximize();
         WebElement element_Select = driver.findElement(By.id("dropdown"));
-        Select select = new Select(element_Select);
+
+        Select select = new Select(element_Select); // Creating Select object for interacting with dropdown
 
         //select.selectByIndex(0); // Disable -?  Negative -
         //select.selectByIndex(1);
 
+        // Selecting option by visible text
         select.selectByVisibleText("Option 2");
 
-        Thread.sleep(2000);
+        Thread.sleep(2000); // Adding a delay for demonstration
     }
 
     @AfterTest

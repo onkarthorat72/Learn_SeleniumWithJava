@@ -24,21 +24,25 @@ public class Selenium26Checkbox {
         driver = new EdgeDriver(options);
     }
 
-
     @Test(groups = "QA")
     @Description("How to click on CheckBox")
     public void checkBox() {
         driver.manage().window().maximize();
         driver.get("https://the-internet.herokuapp.com/checkboxes");
-        List<WebElement> checkboxes = driver.findElements(By.xpath("//input[@type=\"checkbox\"]"));
-        WebElement ch1 = checkboxes.get(0);
-        ch1.click();
-        ch1.click();
 
+        // Finding all checkbox elements using XPath
+        List<WebElement> checkboxes = driver.findElements(By.
+                xpath("//input[@type=\"checkbox\"]"));
+
+        // Getting the first checkbox element
+        WebElement ch1 = checkboxes.get(0);
+
+        // Clicking on the first checkbox twice (toggle behavior)
     }
 
     @AfterTest
     public void closeBrowser() {
+
         driver.quit();
     }
 }
