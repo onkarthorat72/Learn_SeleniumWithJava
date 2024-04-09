@@ -1,0 +1,1 @@
+{"uuid":"91e74ca0-e65f-49af-8b96-408d18d4806d","name":"Learn_SeleniumWithJava","children":["2dcece73-be57-481c-be88-9b571f4ba6ae"],"befores":[{"name":"openBrowser","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1712474863139,"stop":1712474866209}],"afters":[],"start":1712474863127,"stop":1712474874202}
