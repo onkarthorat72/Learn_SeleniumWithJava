@@ -18,9 +18,9 @@ public class Sele29_SVGHandle {
     @BeforeTest
     public void openBrowser() {
         EdgeOptions options = new EdgeOptions();
-        options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
-        options.addArguments("--guest");
-        driver = new EdgeDriver(options);
+        options.setPageLoadStrategy(PageLoadStrategy.NORMAL); // Set page load strategy
+        options.addArguments("--guest"); // Add argument for guest mode
+        driver = new EdgeDriver(options); // Initialize EdgeDriver with options
     }
 
     @Test(groups = "QA")

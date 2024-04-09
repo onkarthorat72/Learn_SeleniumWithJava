@@ -45,26 +45,30 @@ public class Selenium27WebTable {
         // ]/td[
         // j
         // ]
-       // String first_part = "//table[@id=\"customers\"]tbody/tr[";
-        String first_part = "//table[@id=\"customers\"]/tbody/tr[";
+        // String first_part = "//table[@id=\"customers\"]tbody/tr[";
 
+        // Defining the XPath expressions for the table rows and columns
+        String first_part = "//table[@id=\"customers\"]/tbody/tr[";
         String second_part = "]/td[";
         String third_part = "]";
 
+        // Getting the number of rows and columns in the table
         int row = driver.findElements(By.xpath("//table[@id=\"customers\"]/tbody/tr")).size();
-        int col = driver.findElements(By.xpath("//table[@id=\"customers\"]/tbody/tr[2]/td")).size();//Starts from
+        int col = driver.findElements(By.xpath("//table[@id=\"customers\"]/tbody/tr[2]/td")).size();
 
+        // Iterating through the table rows and columns
         for (int i = 2; i <= row; i++) {
             for (int j = 1; j <= col; j++) {
-                String dynamic_xpath = first_part+i+second_part+j+third_part;
-                String data = driver.findElement(By.xpath(dynamic_xpath)).getText();
-                System.out.println(data);
-                if (data.contains("Helen Bennett")) {
+                String dynamic_xpath = first_part + i + second_part + j + third_part; // Constructing the dynamic XPath
+                String data = driver.findElement(By.xpath(dynamic_xpath)).getText(); // Getting the data from the cell
+                System.out.println(data); // Printing the data
 
-                    String country_path = dynamic_xpath + "/following-sibling::td";
-                    String country_text = driver.findElement(By.xpath(country_path)).getText();
-                    System.out.println("------>");
-                    System.out.println("Helen Bennett is in - " + country_text);
+                // Checking if the data contains "Helen Bennett"
+                if (data.contains("Helen Bennett")) {
+                    String country_path = dynamic_xpath + "/following-sibling::td"; // Constructing the XPath for the country column
+                    String country_text = driver.findElement(By.xpath(country_path)).getText(); // Getting the country text
+                    System.out.println("------>"); // Printing a separator
+                    System.out.println("Helen Bennett is in - " + country_text); // Printing the country for Helen Bennett
                 }
             }
         }

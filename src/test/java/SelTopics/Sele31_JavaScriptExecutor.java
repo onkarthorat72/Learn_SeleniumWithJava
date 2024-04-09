@@ -35,14 +35,18 @@ public class Sele31_JavaScriptExecutor {
         //Javascript Code -  document.querySelector("div#userName").shadowRoot.querySelector("div").shadowRoot.querySelector("input#pizza")
 
 
+        // Scrolling to the desired element using JavaScript
         WebElement divScrollTo = driver.findElement(By.xpath("//div[@id='userName']"));
         js.executeScript("arguments[0].scrollIntoView(true);", divScrollTo);
 
+        // Waiting for 4 seconds to ensure element visibility
         Thread.sleep(4000);
 
+        // Finding and interacting with a shadow DOM element using JavaScript
         WebElement inputboxPizza = (WebElement) js.executeScript("return document.querySelector(\"div#userName\").shadowRoot.querySelector(\"div\").shadowRoot.querySelector(\"input#pizza\")");
         inputboxPizza.sendKeys("Farmhouse");
 
+        // Waiting for 15 seconds for demonstration purposes
         Thread.sleep(15000);
 
 

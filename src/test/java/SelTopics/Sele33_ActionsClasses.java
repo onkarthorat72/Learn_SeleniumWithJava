@@ -33,12 +33,12 @@ public class Sele33_ActionsClasses {
         // THETESTINGACADEMY
         // Shift Keydown -> thtestingacademy + Shift KeyUp
 
+        // Entering text into a search field using Actions class
         WebElement source = driver.findElement(By.xpath("//div[@data-testid=\"to-testID-origin\"]/div/div/input"));
-
-
         Actions actions = new Actions(driver);
-        actions.moveToElement(source).click().build().perform();
-        actions.moveToElement(source).click().sendKeys("BLR").build().perform();
+        actions.moveToElement(source).click().build().perform(); // Clicking on the search field
+        actions.moveToElement(source).click().sendKeys("BLR").build().perform(); // Entering text "BLR"
+
 
         Thread.sleep(13000);
     }

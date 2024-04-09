@@ -2,7 +2,6 @@ package SelTopics;
 
 import io.qameta.allure.Description;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -12,7 +11,9 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class Sele32_ActionsClasses {
+import java.util.List;
+
+public class Sele35_2MoveToElement {
 
     EdgeDriver driver;
 
@@ -27,24 +28,18 @@ public class Sele32_ActionsClasses {
     @Test(groups = "QA")
     @Description("Test Case Description")
     public void testPositive() throws InterruptedException {
-        String URL = "https://awesomeqa.com/practice.html";
+        String URL = "https://www.makemytrip.com/";
         driver.get(URL);
+        driver.get("https://app.vwo.com/#/test/ab/13/heatmaps/1?token=eyJhY2NvdW50X2lkIjo2NjY0MDAsImV4cGVyaW1lbnRfaWQiOjEzLCJjcmVhdGVkX29uIjoxNjcxMjA1MDUwLCJ0eXBlIjoiY2FtcGFpZ24iLCJ2ZXJzaW9uIjoxLCJoYXNoIjoiY2IwNzBiYTc5MDM1MDI2N2QxNTM5MTBhZDE1MGU1YTUiLCJzY29wZSI6IiIsImZybiI6ZmFsc2V9&isHttpsOnly=1");
+
         driver.manage().window().maximize();
 
-        // THETESTINGACADEMY
-        // Shift Keydown -> thtestingacademy + Shift KeyUp
+        Thread.sleep(5000);
+        List<WebElement> list_heatmaps = driver.findElements(By.cssSelector("[data-qa=\\\"yedexafobi\\\"]"));
 
-        // Entering text in uppercase using Shift key press and release
-        WebElement firstName = driver.findElement(By.name("firstname"));
+        //list_heatmaps.get(1).click();
         Actions actions = new Actions(driver);
-        actions
-                .keyDown(Keys.SHIFT)
-                .sendKeys(firstName, "The Testing Academy")
-                .keyUp(Keys.SHIFT).build().perform();
-
-        // Performing a right-click action on a link
-        WebElement link = driver.findElement(By.xpath("//a[contains(text(),\"Click here to Download File\")]"));
-        actions.contextClick(link).build().perform();
+        actions.moveToElement(list_heatmaps.get(1)).click().build().perform();
 
         Thread.sleep(15000);
 
@@ -52,6 +47,7 @@ public class Sele32_ActionsClasses {
 
     @AfterTest
     public void closeBrowser() {
+
         driver.quit();
     }
 
