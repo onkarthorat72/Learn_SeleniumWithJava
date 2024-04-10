@@ -6,12 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7c1c07c3-7fc5-418b-b50b-c2d05f76d6e3" name="Changes" comment="Selenium Java Tutorials">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SelTopics/Sele29_SVGHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SelTopics/Sele29_SVGHandle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SelTopics/Sele31_JavaScriptExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SelTopics/Sele31_JavaScriptExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SelTopics/Sele32_ActionsClasses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SelTopics/Sele32_ActionsClasses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SelTopics/Sele33_ActionsClasses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SelTopics/Sele33_ActionsClasses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SelTopics/Sele34_MoveToElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SelTopics/Sele34_MoveToElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopics/Selenium27WebTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics/Selenium27WebTable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +59,7 @@
     "TestNG.Sele33_ActionsClasses.executor": "Run",
     "TestNG.Sele34_MoveToElement.executor": "Run",
     "TestNG.Sele35_2MoveToElement.executor": "Run",
+    "TestNG.Sele36_PageUp_Down.executor": "Run",
     "TestNG.Selenium15Xpath.executor": "Run",
     "TestNG.Selenium19UseCSSSelectors.executor": "Run",
     "TestNG.Selenium20Example.executor": "Run",
@@ -261,7 +256,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712650684906</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Selenium Java Tutorials">
+      <option name="closed" value="true" />
+      <created>1712672556503</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1712672556503</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
