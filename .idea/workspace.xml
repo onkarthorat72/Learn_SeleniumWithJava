@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7c1c07c3-7fc5-418b-b50b-c2d05f76d6e3" name="Changes" comment="Selenium Java Tutorials">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SelTopics/Sele37_DragAndDrop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SelTopics/Sele37_DragAndDrop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "onkarthorat72"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/onkarthorat72/Learn_SeleniumWithJava.git",
+    "accountId": "b1929c1e-c2d2-434c-a5e3-1d9a1e6606f5"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/test/java/SeleniumTopics/Selenium27WebTable.java" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -41,12 +54,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.InheritanceExample.executor": "Run",
+    "Application.Sele38_Practice.executor": "Run",
     "Application.Selenium13_1AnchorTag.executor": "Run",
     "Application.Selenium_01_Flow.executor": "Run",
     "Application.Selenium_03_AddExtension.executor": "Run",
     "Application.Selenium_04_OpenDriver.executor": "Run",
     "Application.Selenium_05_HeadlessOrUIless.executor": "Run",
     "Application.TC01.executor": "Run",
+    "Application.findLargestElement.executor": "Run",
     "JUnit.AppTest.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -87,7 +103,20 @@
       <recent name="SelTopics" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.findLargestElement">
+    <configuration name="Sele38_Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SelTopics.Sele38_Practice" />
+      <module name="Learn_SeleniumWithJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SelTopics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Selenium_03_AddExtension" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Selenium_Basics.Selenium_03_AddExtension" />
       <module name="Learn_SeleniumWithJava" />
@@ -101,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Selenium_05_HeadlessOrUIless" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Selenium_Basics.Selenium_05_HeadlessOrUIless" />
+    <configuration name="findLargestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice.findLargestElement" />
       <module name="Learn_SeleniumWithJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Selenium_Basics.*" />
+          <option name="PATTERN" value="Practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,23 +153,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="SelTopics" />
       <option name="MAIN_CLASS_NAME" value="SelTopics.Sele32_ActionsClasses" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Selenium23Fluentwaits" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Learn_SeleniumWithJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumTopics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumTopics" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTopics.Selenium23Fluentwaits" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -168,20 +180,13 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.findLargestElement" />
+        <item itemvalue="Application.Sele38_Practice" />
         <item itemvalue="TestNG.Sele32_ActionsClasses" />
         <item itemvalue="Application.Selenium_03_AddExtension" />
         <item itemvalue="TestNG.Selenium27WebTable.webTable" />
-        <item itemvalue="TestNG.Selenium23Fluentwaits" />
-        <item itemvalue="Application.Selenium_05_HeadlessOrUIless" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -264,7 +269,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712672556503</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Selenium Java Tutorials">
+      <option name="closed" value="true" />
+      <created>1712753324985</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1712753324985</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Selenium Java Tutorials">
+      <option name="closed" value="true" />
+      <created>1712753335793</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1712753335793</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
