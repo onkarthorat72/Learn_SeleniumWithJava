@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7c1c07c3-7fc5-418b-b50b-c2d05f76d6e3" name="Changes" comment="Selenium Java Tutorials">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SelTopics/Sele37_DragAndDrop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SelTopics/Sele37_DragAndDrop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,18 +22,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "onkarthorat72"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;onkarthorat72&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/onkarthorat72/Learn_SeleniumWithJava.git",
-    "accountId": "b1929c1e-c2d2-434c-a5e3-1d9a1e6606f5"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/onkarthorat72/Learn_SeleniumWithJava.git&quot;,
+    &quot;accountId&quot;: &quot;b1929c1e-c2d2-434c-a5e3-1d9a1e6606f5&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/test/java/SeleniumTopics/Selenium27WebTable.java" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -54,6 +53,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ConversationSimulator.executor": "Run",
+    "Application.Darray.executor": "Run",
+    "Application.DplicateCharater1.executor": "Run",
+    "Application.DuplicateArray.executor": "Run",
+    "Application.DuplicateCharachtercount2.executor": "Run",
+    "Application.DuplicateCharacters.executor": "Run",
     "Application.InheritanceExample.executor": "Run",
     "Application.Sele38_Practice.executor": "Run",
     "Application.Selenium13_1AnchorTag.executor": "Run",
@@ -61,9 +66,11 @@
     "Application.Selenium_03_AddExtension.executor": "Run",
     "Application.Selenium_04_OpenDriver.executor": "Run",
     "Application.Selenium_05_HeadlessOrUIless.executor": "Run",
+    "Application.SortArray.executor": "Run",
     "Application.TC01.executor": "Run",
     "Application.findLargestElement.executor": "Run",
     "JUnit.AppTest.executor": "Run",
+    "Java Scratch.Scratch.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -92,7 +99,13 @@
     "TestNG.TC02.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Onkar/TheTestingAcademy/JAVA Programs and Notes/Learn_SeleniumWithJava/src/test/java"
+    "last_opened_file_path": "D:/Onkar/TheTestingAcademy/JAVA Programs and Notes/Learn_SeleniumWithJava/src/test/java",
+    "run.code.analysis.last.selected.profile": "pProject Default"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -103,7 +116,20 @@
       <recent name="SelTopics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.findLargestElement">
+  <component name="RunManager" selected="Application.Darray">
+    <configuration name="Darray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice.Darray" />
+      <module name="Learn_SeleniumWithJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Sele38_Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SelTopics.Sele38_Practice" />
       <module name="Learn_SeleniumWithJava" />
@@ -160,31 +186,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Selenium27WebTable.webTable" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Learn_SeleniumWithJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumTopics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumTopics" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTopics.Selenium27WebTable" />
-      <option name="METHOD_NAME" value="webTable" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Darray" />
         <item itemvalue="Application.findLargestElement" />
         <item itemvalue="Application.Sele38_Practice" />
         <item itemvalue="TestNG.Sele32_ActionsClasses" />
         <item itemvalue="Application.Selenium_03_AddExtension" />
-        <item itemvalue="TestNG.Selenium27WebTable.webTable" />
       </list>
     </recent_temporary>
   </component>
@@ -285,8 +293,27 @@
       <option name="project" value="LOCAL" />
       <updated>1712753335793</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Selenium Java Tutorials">
+      <option name="closed" value="true" />
+      <created>1713074743784</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1713074743784</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New Sessions added" />
