@@ -4,9 +4,54 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c1c07c3-7fc5-418b-b50b-c2d05f76d6e3" name="Changes" comment="Selenium Java Tutorials - Practice">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SelTopics/Sele37_DragAndDrop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SelTopics/Sele37_DragAndDrop.java" afterDir="false" />
+    <list default="true" id="7c1c07c3-7fc5-418b-b50b-c2d05f76d6e3" name="Changes" comment="Selenium Java Tutorials -Practice">
+      <change beforePath="$PROJECT_DIR$/src/test/java/SelTopics/SampleforTest.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics2/SampleforTest.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SelTopics/Sele29_SVGHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics2/Sele29_SVGHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SelTopics/Sele30_SvgHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics2/Sele30_SvgHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SelTopics/Sele31_JavaScriptExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics2/Sele31_JavaScriptExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SelTopics/Sele32_ActionsClasses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics2/Sele32_ActionsClasses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SelTopics/Sele33_ActionsClasses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics2/Sele33_ActionsClasses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SelTopics/Sele34_MoveToElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics2/Sele34_MoveToElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SelTopics/Sele35_2MoveToElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics2/Sele35_2MoveToElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SelTopics/Sele36_PageUp_Down.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics2/Sele36_PageUp_Down.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SelTopics/Sele37_DragAndDrop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics2/Sele37_DragAndDrop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SelTopics/Sele38_Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics2/Sele38_Practice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SelTopics/Sele39_WindoHandels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics2/Sele39_WindoHandels.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SelTopics/Sele40_SpanElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics2/Sele40_SpanElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SelTopics/Sele41_ListOfStates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics2/Sele41_ListOfStates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SelTopics/Sele42_iFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics2/Sele42_iFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SelTopics/Sele43_RefreshNavigateDOM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics2/Sele43_RefreshNavigateDOM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SelTopics/Sele44_iFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics2/Sele44_iFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopics/Selenium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics1/Selenium.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopics/Selenium11Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics1/Selenium11Locators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopics/Selenium12_Locator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics1/Selenium12_Locator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopics/Selenium13Xpathtypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics1/Selenium13Xpathtypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopics/Selenium13_1AnchorTag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics1/Selenium13_1AnchorTag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopics/Selenium14findElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics1/Selenium14findElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopics/Selenium15Xpath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics1/Selenium15Xpath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopics/Selenium16Practive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics1/Selenium16Practive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopics/Selenium17TestNGFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics1/Selenium17TestNGFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopics/Selenium18Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics1/Selenium18Locators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopics/Selenium19UseCSSSelectors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics1/Selenium19UseCSSSelectors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopics/Selenium20Alert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics1/Selenium20Alert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopics/Selenium21waitwithcondn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics1/Selenium21waitwithcondn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopics/Selenium22visibilityOfElementLocated.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics1/Selenium22visibilityOfElementLocated.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopics/Selenium23Fluentwaits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics1/Selenium23Fluentwaits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopics/Selenium24DropDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics1/Selenium24DropDown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopics/Selenium25JavaScriptAlerts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics1/Selenium25JavaScriptAlerts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopics/Selenium26Checkbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics1/Selenium26Checkbox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopics/Selenium27WebTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics1/Selenium27WebTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopics/Selenium28_2WebTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopics1/Selenium28_2WebTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium_Basics/Selenium_01_Flow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium_BasicsCommands/Selenium_01_Flow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium_Basics/Selenium_02_OopsConcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium_BasicsCommands/Selenium_02_OopsConcept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium_Basics/Selenium_03_AddExtension.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium_BasicsCommands/Selenium_03_AddExtension.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium_Basics/Selenium_04_OpenDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium_BasicsCommands/Selenium_04_OpenDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium_Basics/Selenium_05_HeadlessOrUIless.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium_BasicsCommands/Selenium_05_HeadlessOrUIless.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium_Basics/Selenium_06_Proxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium_BasicsCommands/Selenium_06_Proxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium_Basics/Selenium_07_PageLoadStratergy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium_BasicsCommands/Selenium_07_PageLoadStratergy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium_Basics/Selenium_08_CloseNQuit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium_BasicsCommands/Selenium_08_CloseNQuit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium_Basics/Selenium_09_Navigate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium_BasicsCommands/Selenium_09_Navigate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium_Basics/Selenium_10_Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium_BasicsCommands/Selenium_10_Demo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,11 +186,11 @@
       </method>
     </configuration>
     <configuration name="Sele38_Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SelTopics.Sele38_Practice" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTopics2.Sele38_Practice" />
       <module name="Learn_SeleniumWithJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SelTopics.*" />
+          <option name="PATTERN" value="SeleniumTopics2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +199,11 @@
       </method>
     </configuration>
     <configuration name="Selenium_03_AddExtension" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Selenium_Basics.Selenium_03_AddExtension" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTopics0.Selenium_03_AddExtension" />
       <module name="Learn_SeleniumWithJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Selenium_Basics.*" />
+          <option name="PATTERN" value="SeleniumTopics0.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,12 +228,12 @@
       <module name="Learn_SeleniumWithJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SelTopics.*" />
+          <option name="PATTERN" value="SeleniumTopics2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="SelTopics" />
-      <option name="MAIN_CLASS_NAME" value="SelTopics.Sele32_ActionsClasses" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTopics2.Sele32_ActionsClasses" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -319,7 +364,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713361042354</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Selenium Java Tutorials -Practice">
+      <option name="closed" value="true" />
+      <created>1714128384115</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1714128384115</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -340,13 +393,14 @@
     <MESSAGE value="Alert,JS Alert, Dropdown" />
     <MESSAGE value="Selenium Java Tutorials" />
     <MESSAGE value="Selenium Java Tutorials - Practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selenium Java Tutorials - Practice" />
+    <MESSAGE value="Selenium Java Tutorials -Practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenium Java Tutorials -Practice" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/SelTopics/Sele37_DragAndDrop.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/SeleniumTopics2/Sele37_DragAndDrop.java</url>
           <line>56</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>

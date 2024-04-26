@@ -1,4 +1,4 @@
-package Selenium_BasicsCommands;
+package SeleniumTopics0;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;

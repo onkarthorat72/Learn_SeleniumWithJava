@@ -1,5 +1,5 @@
 // Define the package for the Selenium test
-package Selenium_BasicsCommands;
+package SeleniumTopics0;
 
 // Import necessary libraries
 import io.qameta.allure.Description;
