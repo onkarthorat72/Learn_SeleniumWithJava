@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c1c07c3-7fc5-418b-b50b-c2d05f76d6e3" name="Changes" comment="Selenium Java Tutorials">
+    <list default="true" id="7c1c07c3-7fc5-418b-b50b-c2d05f76d6e3" name="Changes" comment="Selenium Java Tutorials - Practice">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SelTopics/Sele37_DragAndDrop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SelTopics/Sele37_DragAndDrop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +84,14 @@
     "TestNG.Sele34_MoveToElement.executor": "Run",
     "TestNG.Sele35_2MoveToElement.executor": "Run",
     "TestNG.Sele36_PageUp_Down.executor": "Run",
+    "TestNG.Sele37_DragAndDrop.executor": "Run",
+    "TestNG.Sele37_DragAndDrop.testPositive.executor": "Debug",
+    "TestNG.Sele39_WindoHandels.executor": "Run",
+    "TestNG.Sele40_SpanElements.executor": "Run",
+    "TestNG.Sele41_ListOfStates.executor": "Run",
+    "TestNG.Sele42_iFrame.executor": "Run",
+    "TestNG.Sele43_RefreshNavigateDOM.executor": "Run",
+    "TestNG.Sele44_iFrame.executor": "Run",
     "TestNG.Selenium15Xpath.executor": "Run",
     "TestNG.Selenium19UseCSSSelectors.executor": "Run",
     "TestNG.Selenium20Example.executor": "Run",
@@ -100,7 +109,8 @@
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Onkar/TheTestingAcademy/JAVA Programs and Notes/Learn_SeleniumWithJava/src/test/java",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "editor.preferences.import"
   },
   "keyToStringList": {
     "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
@@ -116,7 +126,7 @@
       <recent name="SelTopics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Darray">
+  <component name="RunManager">
     <configuration name="Darray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Practice.Darray" />
       <module name="Learn_SeleniumWithJava" />
@@ -301,7 +311,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713074743784</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Selenium Java Tutorials - Practice">
+      <option name="closed" value="true" />
+      <created>1713361042354</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1713361042354</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -321,6 +339,18 @@
     <MESSAGE value="Understand Each code line and write as in your language..." />
     <MESSAGE value="Alert,JS Alert, Dropdown" />
     <MESSAGE value="Selenium Java Tutorials" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selenium Java Tutorials" />
+    <MESSAGE value="Selenium Java Tutorials - Practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenium Java Tutorials - Practice" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/SelTopics/Sele37_DragAndDrop.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
